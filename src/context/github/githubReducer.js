@@ -36,7 +36,7 @@ export default (state, action) => {
         case SET_LOADING:
             return {
                 ...state,
-                loading: false
+                loading: true
             };
         default: 
         return state;
